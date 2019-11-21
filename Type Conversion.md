@@ -1,5 +1,4 @@
-#Python Type Conversion
-
+# Python Type Conversion
 
 ## list의 기능
 
