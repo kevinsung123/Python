@@ -1,5 +1,6 @@
 #Python Type Conversion
 
+
 ## list의 기능
 
 * list.index( value ) : 값을 이용하여 위치를 찾는 기능
