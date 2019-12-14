@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../boj_알고리즘/.idea/boj_알고리즘.iml" filepath="$PROJECT_DIR$/../boj_알고리즘/.idea/boj_알고리즘.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/effective_python.iml" filepath="$PROJECT_DIR$/.idea/effective_python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../python 예제/.idea/python 예제.iml" filepath="$PROJECT_DIR$/../python 예제/.idea/python 예제.iml" />
+    </modules>
+  </component>
+</project>

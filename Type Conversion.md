@@ -25,4 +25,13 @@
 	* iterable은  objects capable of returning its members one at a time. Some examples are List, Tuple, String, Dictionary and Set
 
 
-
+## Type Conversion Function
+* int(a,base) : 어떤 타입을 int로 바꿈 , base = 진법
+* float() : 어떤 타입을 floating point number로 바꿈
+* ord() : character를 integer로 바꿈
+* hex() : integer to hexadecimal <span style="color:red">string</span>
+* oct() : integer to octal string
+* tuple() : tuple로 변경
+* set() : set변경
+* list(): list로 변경
+* str() : convert integer to string
