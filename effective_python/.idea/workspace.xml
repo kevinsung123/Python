@@ -129,11 +129,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-16" />
-    <option name="y" value="-16" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-148" />
+    <option name="y" value="80" />
     <option name="width" value="1956" />
-    <option name="height" value="2097" />
+    <option name="height" value="1220" />
   </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
@@ -155,7 +155,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python 예제" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../boj" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
