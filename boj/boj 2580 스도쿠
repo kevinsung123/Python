@@ -6,18 +6,19 @@ if __name__ == '__main__':
     col = [[False for _ in range(10)] for _ in range(9)]
     squ = [[False for _ in range(10)] for _ in range(9)]
     arr = []
-    # for y in range(9):
-    #     for x in range(10):
-    #         print(arr[y][x], end=" ")
-    #     print()
+
     for y in range(9):
         for x in range(9):
             print(map[y][x], end=" ")
-            # if map[y][x] == 0:
-            #     arr.append((y, x))
-            # else:
-            #     row[y][map[y][x]] = True
-            #     col[x][map[y][x]] = True
-            #     squ[(y / 3) * 3 + (x / 3)][map[y][x]] = True
+            if map[y][x] == 0:
+                arr.append((y, x))
+            else:
+                row[y][map[y][x]] = True
+                col[x][map[y][x]] = True
+
+                squ[(int(int(y / 3) * 3 + int(x / 3)))][map[y][x]] = True
 
         print()
+
+    for idx, val in enumerate(arr):
+        print(idx, val)
