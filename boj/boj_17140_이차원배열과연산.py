@@ -24,12 +24,12 @@ def solve():
         # Print(Map, N, M)
         # print("Map[r-1][c-1]={0} , k={1}".format(Map[r - 1][c - 1], k))
         if Map[r - 1][c - 1] == k:
-            print("Map[r-1][c-1]={0} , k={1}".format(Map[r - 1][c - 1], k))
+            #print("Map[r-1][c-1]={0} , k={1}".format(Map[r - 1][c - 1], k))
             # print("time=", t)
             print(t)
             return
         if N >= M:  # R연산
-            Print(Map, N, M)
+            #Print(Map, N, M)
             for y in range(N):
                 count_dict = {}  # dict에서 map사용
                 for x in range(M):
@@ -61,7 +61,7 @@ def solve():
 
 
         else:
-            Print(Map, N, M)
+            #Print(Map, N, M)
             for x in range(M):
                 count_dict = {}
                 # Map 활용하여 숫자 카운트 세기
@@ -94,7 +94,7 @@ def solve():
 
 if __name__ == '__main__':
     r, c, k = map(int, sys.stdin.readline().split())
-    print("r={0} c={1} k={2}".format(r,c,k))
+    #print("r={0} c={1} k={2}".format(r,c,k))
     # 3X3 배열에 입력값 넣음
     for y in range(3):
         Map[y][0], Map[y][1], Map[y][2] = list(map(int, sys.stdin.readline().split()))

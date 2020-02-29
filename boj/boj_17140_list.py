@@ -9,10 +9,11 @@ def doR(arr):
                 cnt[arr[i][j]] += 1
                 arr[i][j] = 0
         for k, x in enumerate(cnt):
-            if x != 0: new.append([x, k])
+            if x != 0:
+                new.append([x, k])
         new.sort()
-        if mx < len(new) * 2:
-            mx = len(new) * 2
+        mx = max(mx, len(new) * 2)
+        # 수->회수 순서로 넣음
         for k, x in enumerate(new):
             arr[i][k * 2 + 1], arr[i][k * 2] = x
     C = mx
@@ -29,10 +30,12 @@ def doC(arr):
                 cnt[arr[i][j]] += 1
                 arr[i][j] = 0
         for k, x in enumerate(cnt):
-            if x != 0: new.append([x, k])
+            if x != 0:
+                new.append([x, k])
         new.sort()
         if mx < len(new) * 2:
             mx = len(new) * 2
+        # 수->회수 순서로 넣음
         for k, x in enumerate(new):
             arr[k * 2 + 1][j], arr[k * 2][j] = x
     R = mx
