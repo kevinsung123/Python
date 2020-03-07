@@ -6,6 +6,8 @@
 * 다른 언어에도 똑같은 원리가 적용되지요.  
 * Java에서는 Scanner 보다 Buffered~ 가 더 처리가 가볍고, C++에서는 cout 보다 printf 를 이용하는게 시간적인 측면에서 효율적이라고 알고있습니다.  
 * C++은 함수오버로딩도 있고 해서 훨씬 오래 걸리는것 같지만요..  
+* sys.stdin.readline()으로 입력 받을시 마지막 문자에 개행 문자가 존재 따라서 strip() 함수사용! 처음과 마지막 whitespace를 제거해줌
+* split(separator, maxsplit) : 기본적으로 maxsplit=-1이고 구분자로 모두 분리 (maxsplit+1)개수로 나눈다
 
 
   
