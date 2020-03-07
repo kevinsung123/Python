@@ -60,11 +60,11 @@ if __name__ == "__main__":
         if N >= M:
             # R연산을 하므로 최대 열 길이 갱신
             M = R(Map, N, M)
-            P(Map,N,M)
+           # P(Map,N,M)
         else:
             Map = list(map(list, zip(*Map)))
             N = R(Map, M, N)
             Map = list(map(list, zip(*Map)))
-            P(Map,N,M)
+            #P(Map,N,M)
         time += 1
 print(ans)

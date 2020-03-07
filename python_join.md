@@ -1,0 +1,11 @@
+﻿### join 함수
+- 정의 : string 메소드이며 string을 리턴한다. 일련의 요소들을 str separator로 모두 결합하여 string을 리턴
+- **syntax** 
+	- stringname.join(iterable)
+- **parameter**
+	- iterable object들을 입력받을 수 있음
+	- 동시에 모든 요소들을 return 
+	- ex) list, tuple, string, dictionay and set
+- Return Value 
+	- 모든요소들을 결합하여 string으로 리턴
+	- 
