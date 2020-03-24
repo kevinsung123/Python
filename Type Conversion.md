@@ -28,6 +28,7 @@
 ## Type Conversion Function
 * int(a,base) : 어떤 타입을 int로 바꿈 , base = 진법
 * float() : 어떤 타입을 floating point number로 바꿈
+* chr() : 어떤 타입을 chr형으로 바꿈 ex) chr(97) ='a'
 * ord() : character를 integer로 바꿈
 * hex() : integer to hexadecimal <span style="color:red">string</span>
 * oct() : integer to octal string
