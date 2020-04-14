@@ -35,6 +35,13 @@ cache = [['' for _ in range(C)] for _ in range(R)]
 	- 양쪽문자를 제거 , 개행문자 제거
 	-  strip(char) : char에해당하는 문자를 제거
   
+- 빈칸 없는 수 입력받고 이차원배열에 처리 
+```
+nodes = [[] for i in range(N)] #이차원리스트 
+for idx, p in enumerate(map(int, input().split())):
+    if p == -1: continue
+    nodes[p].append(idx)
+```
 ## Python : eval() 함수  
 [참조](https://bluese05.tistory.com/64)
 
