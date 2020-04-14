@@ -26,10 +26,21 @@ abcd
 efgh  
 board = [list(sys.stdin.readline().strip()) for _ in range(R)]  
  ```
-
+* 입력으로 정수 여러개 입력받기
+```
+a, b, c = map(int, sys.stdin.readline())
+```
 * 이차원리스트 초기화  
 ``` 
-cache = [['' for _ in range(C)] for _ in range(R)]  
+1) cache = [['' for _ in range(C)] for _ in range(R)]  
+2) cache = [[] for _ in range(n+1)]
+3) N입력받고 일차원 리스트 초기화 
+N = int(sys.stdin.readline())
+child = [[] for _ in range(N + 1)]  # 이차원 리스트 초기화
+chk = [ 0 for _ in range(N+1)]
+parent = [0 for _ in range(N+1)]
+chk = [0] * (N + 1)
+parent = [0] * (N + 1)
 ```
 - strip :
 	- 양쪽문자를 제거 , 개행문자 제거
