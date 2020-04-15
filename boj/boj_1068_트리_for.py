@@ -19,4 +19,8 @@ def remove(rem):
 
 remove(rem)
 
-print(sum([1 if i in ([], [rem]) else 0 for i in nodes]))
+print(sum(
+    [1 if i in ([], [rem]) else 0
+     for i in nodes
+     ]
+))
