@@ -59,3 +59,30 @@ def remove(node):
     except ValueError :  
         pass
 ```
+
+### * operator 
+- *연산자는 반복연산자
+
+```
+Concatenating and repeating lists
+odd = [1, 3, 5]
+
+print(odd + [9, 7, 5])
+
+print(["re"] * 3)
+```
+
+### insert
+- 한개의 item을 원하는 위치에 넣거나 multiple items를 넣는경우
+```
+# Demonstration of list insert() method
+odd = [1, 9]
+odd.insert(1,3)
+print(odd)
+odd[2:2] = [5, 7]
+print(odd)
+
+####
+[1, 3, 9]
+[1, 3, 5, 7, 9]
+```
