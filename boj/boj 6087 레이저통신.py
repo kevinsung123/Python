@@ -43,9 +43,9 @@ if __name__ == '__main__':
         tmp = list(sys.stdin.readline().strip())
         Map.append(tmp)
 
-    for y in range(H):
-        for x in range(W):
-            if Map[y][x] == 'C':
-                target.append((y, x))
-    bfs()
-    print(dist[target[1][0]][target[1][1]])
+for y in range(H):
+    for x in range(W):
+        if Map[y][x] == 'C':
+            target.append((y, x))
+bfs()
+print(dist[target[1][0]][target[1][1]])
