@@ -1,4 +1,9 @@
-﻿### remove 
+﻿### append 와 extend 차이점
+- append : list 끝에 1개 원소를 넣음
+- extend : list 끝에 iterable의 각 항목을 넣음
+
+
+### remove 
 -  list에서 주어진 object를 지우는 remove() built함수이다 
 -  return 값이 없음
 - syntax
