@@ -57,3 +57,17 @@ def eratos:
 	return [i for i in range(2,n) if seive[i]==True]
 		
 ```
+
+```
+n=1000
+a = [False,False] + [True]*(n-1)
+primes=[]
+
+def eratos():
+    for a in range(2, n + 1):
+        if sieve[a] == True:
+            primes.append(a)
+            for b in range(2* a, n+1, a):
+                sieve[b] = False
+print(primes)
+```
