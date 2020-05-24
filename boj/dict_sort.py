@@ -4,8 +4,7 @@ def main():
         "hello": 56,
         "at": 23,
         "test": 43,
-        "teaa" : 46,
-
+        "teaa": 46,
         "this": 43
     }
 
