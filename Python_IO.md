@@ -12,6 +12,14 @@
 
   
 ## Python : 이차원리스트로 문자열 입력받기  
+- N,M이 주어지고 이차원 배열이 입력될떄 입력받기
+```
+    N, M, K = map(int, sys.stdin.readline().split())
+    arr = [list(map(int, sys.stdin.readline().split())) for _ in range(N)]
+    print(arr)
+    rotate = [list(map(int, sys.stdin.readline().split())) for _ in range(K)]
+    print(rotate)
+```
   
 - 한칸씩 공백으로 이차원 문자열이 들어올경우  
 ```  
