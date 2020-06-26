@@ -7,9 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40b08b1e-65ba-49fd-8d87-1ac1adbc437c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/boj_12851_숨바꼭질2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boj_13913_숨바꼭질4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programmers/BFS,DFS_타겟넘버.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boj_13913_숨바꼭질4.py" beforeDir="false" afterPath="$PROJECT_DIR$/boj_13913_숨바꼭질4.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,24 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/is_prime.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_eraots.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/boj 15558 점프게임.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -55,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/boj_13549_숨바꼭질3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            <state relative-caret-position="285">
+              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -67,20 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/boj_12851_숨바꼭질2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="24" lean-forward="true" selection-end-line="44" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/boj_13913_숨바꼭질4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="41" column="20" selection-start-line="35" selection-start-column="9" selection-end-line="42" selection-end-column="30" />
+            <state relative-caret-position="342">
+              <caret line="19" column="24" selection-end-line="44" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -89,10 +59,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boj_13913_숨바꼭질4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/programmers/BFS,DFS_타겟넘버.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/programmers/소수찾기.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-266">
+              <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode_151_reverse_words_in_string.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -200,13 +203,14 @@
         <option value="$PROJECT_DIR$/boj_13549_숨바꼭질3.py" />
         <option value="$PROJECT_DIR$/boj_12851_숨바꼭질2.py" />
         <option value="$PROJECT_DIR$/boj_13913_숨바꼭질4.py" />
+        <option value="$PROJECT_DIR$/programmers/BFS,DFS_타겟넘버.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="436" />
+    <option name="x" value="1910" />
+    <option name="y" value="-9" />
+    <option name="width" value="437" />
     <option name="height" value="468" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -223,6 +227,11 @@
             <path>
               <item name="boj" type="b2602c69:ProjectViewProjectNode" />
               <item name="boj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="boj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="boj" type="462c0819:PsiDirectoryNode" />
+              <item name="programmers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -247,7 +256,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.boj_13913_숨바꼭질4">
+  <component name="RunManager" selected="Python.BFS,DFS_타겟넘버">
+    <configuration name="BFS,DFS_타겟넘버" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="boj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/programmers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/programmers/BFS,DFS_타겟넘버.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="boj 15558 점프게임" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="boj" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -332,34 +362,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="python_eraots" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="boj" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_eraots.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.BFS,DFS_타겟넘버" />
         <item itemvalue="Python.boj_13913_숨바꼭질4" />
         <item itemvalue="Python.boj_12851_숨바꼭질2" />
         <item itemvalue="Python.boj_13549_숨바꼭질3" />
         <item itemvalue="Python.boj 15558 점프게임" />
-        <item itemvalue="Python.python_eraots" />
       </list>
     </recent_temporary>
   </component>
@@ -390,21 +399,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="-6" y="-6" width="1719" height="932" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.496" side_tool="true" visible="true" weight="0.14392324" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.496" side_tool="true" visible="true" weight="0.14569536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24984948" />
       <window_info id="Favorites" order="2" sideWeight="0.504" side_tool="true" weight="0.29259482" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.82569295" visible="true" weight="0.32821497" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.82299817" visible="true" weight="0.32709113" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8379531" weight="0.48272553" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49789283" weight="0.32958803" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.17430703" side_tool="true" visible="true" weight="0.32821497" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4972908" weight="0.32958803" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.1770018" side_tool="true" visible="true" weight="0.32709113" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.21163367" weight="0.32833958" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49969897" weight="0.32958803" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32958803" />
@@ -596,7 +605,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/boj_4803_트리_union-find.py" />
     <entry file="file://$PROJECT_DIR$/boj 1162 도로포장 (다익스트라+dp).py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -890,13 +898,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/소수찾기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/boj_4803_트리.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -938,6 +939,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/boj_13549_숨바꼭질3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boj_12851_숨바꼭질2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="24" selection-end-line="44" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode_151_reverse_words_in_string.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/boj 15888점프게임_2.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -955,39 +983,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boj_13549_숨바꼭질3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boj_12851_숨바꼭질2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="24" lean-forward="true" selection-end-line="44" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode_151_reverse_words_in_string.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/boj_13913_숨바꼭질4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="41" column="20" selection-start-line="35" selection-start-column="9" selection-end-line="42" selection-end-column="30" />
+        <state relative-caret-position="342">
+          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programmers/소수찾기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-266">
+          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programmers/BFS,DFS_타겟넘버.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
           </folding>
         </state>
       </provider>

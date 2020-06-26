@@ -6,7 +6,7 @@ def bfs():
     global N, K
     q = deque()
     chk = [1e9] * 200000
-    parent = [-1] * 100001
+    parent = [-1] * 200001
     # 위치와 시간
     q.append((N, 0))
     chk[N] = 0
@@ -25,11 +25,9 @@ def bfs():
                 # 범위 벗어날떄
                 if ncur < 0 or ncur > 100000:
                     continue
-
                 if chk[ncur] >= ntime:
                     chk[ncur] = ntime
                     parent[ncur] = cur
-                    #print(cur,ncur,parent[cur])
                     q.append((ncur, ntime))
         if find == True:
             idx = K
@@ -39,22 +37,16 @@ def bfs():
                     break
                 ans_list.append(idx)
                 idx = parent[idx]
-            # 출발점 넣기
-            ans_list.append(N)
             # 뒤집기
-            new=ans_list[::-1]
-            print(new)
-            print(list(reversed(ans_list)))
-            for i in new:
-                print(i,end=" ")
-            print()
-            return
+            print(ans)
+            print(' '.join(map(str,ans_list[::-1])))
+            break
 
 
 if __name__ == '__main__':
     N, K = map(int, sys.stdin.readline().split())
     if N == K:
         print(0)
-        print(N, K)
+        print(N)
     else:
         bfs()
