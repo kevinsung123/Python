@@ -9,6 +9,16 @@
 - { } (braces)으로 생성  
 - comma로 구분  
 - mixed key로 생성가능  
+#### defualtdict
+- from collections import defaultdict
+- dict클래스의 subclass이다 
+- 차이점은 keyerror를 일으키지 않는다
+- defaultvalue를 제공
+```
+dic_list=default(list)
+for src,target in tickets:
+    dic_lista[src].append(target)
+```
 #### sorted vs sort
 - sort는 자체적으로 리스트를 정렬
 - sorted는 정렬하여 새로운 리스트 생성  
