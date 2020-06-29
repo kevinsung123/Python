@@ -1,24 +1,8 @@
 import sys
 from heapq import *
 
-# 전역변수
-Map = [[0] * 101 for _ in range(101)]
-cnt = 0
-N, M = 3, 3
-
-
-
-
-def Print(a, n, m):
-    print(n, m)
-    for y in range(n):
-        for x in range(m):
-            print(a[y][x], end=" ")
-        print()
-
-
 def solve():
-    global N, M, r, c, k
+    global N, M, r, c, k,Map,cnt
     for t in range(101):  # 시간 0초부터 100초까지
         if Map[r - 1][c - 1] == k:
             print(t)
@@ -38,21 +22,15 @@ def solve():
                 # (횟수, 수)를 기준으로 list에 넣고 정렬하기
                 pq = []
                 # q = []
-                print("정렬전===========")
-                print(count_dict)
-                print("정렬후===========")
-                #print(sorted(count_dict,key=lambda x: (x,count_dict[x])))
-                print(sorted(count_dict.items(), key=lambda x: (x[1],x[0])))
-
-                for key in sorted(sorted(count_dict.keys()), key=lambda x: count_dict[x]):
-                    # print(key, count_dict[key])
-                    #     heappush(q,  (value, key))
+                # print("정렬전===========")
+                # print(count_dict)
+                # print("정렬후===========")
+                # print(sorted(count_dict.items(), key=lambda x: (x[1], x[0])))
+                for key,value in sorted(count_dict.items(), key=lambda x: (x[1],x[0])):
                     pq.append(key)  # 수 먼저 넣고
-                    pq.append(count_dict[key])  # 횟수
-                print("pq=",pq)
+                    pq.append(value)  # 횟수
                 M = max(M, len(pq))
                 m = len(pq)
-                # print("len= {0}".format(m) )
                 # 정렬한 배열을 원본 배열에 넣음
                 for key, v in enumerate(pq):
                     Map[y][key] = v
@@ -84,14 +62,14 @@ def solve():
 
                 for key, v in enumerate(pq):
                     Map[key][x] = v
-                #Print(Map, N, M)
-
     # 100초 초과시시
     print(-1)
     return
 
-
 if __name__ == '__main__':
+    Map = [[0] * 101 for _ in range(101)]
+    cnt = 0
+    N, M = 3, 3
     r, c, k = map(int, sys.stdin.readline().split())
     # 3X3 배열에 입력값 넣음
     for y in range(3):
