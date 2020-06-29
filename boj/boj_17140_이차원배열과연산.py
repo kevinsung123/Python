@@ -20,18 +20,12 @@ def Print(a, n, m):
 def solve():
     global N, M, r, c, k
     for t in range(101):  # 시간 0초부터 100초까지
-        # print("Map======================")
-        # Print(Map, N, M)
-        # print("Map[r-1][c-1]={0} , k={1}".format(Map[r - 1][c - 1], k))
         if Map[r - 1][c - 1] == k:
-            #print("Map[r-1][c-1]={0} , k={1}".format(Map[r - 1][c - 1], k))
-            # print("time=", t)
             print(t)
             return
         if N >= M:  # R연산
-            #Print(Map, N, M)
             for y in range(N):
-                count_dict = {}  # dict에서 map사용
+                count_dict = dict()  # dict에서 map사용
                 for x in range(M):
                     num = Map[y][x]
                     Map[y][x] = 0
@@ -44,13 +38,18 @@ def solve():
                 # (횟수, 수)를 기준으로 list에 넣고 정렬하기
                 pq = []
                 # q = []
-                # print(count_dict)
+                print("정렬전===========")
+                print(count_dict)
+                print("정렬후===========")
+                #print(sorted(count_dict,key=lambda x: (x,count_dict[x])))
+                print(sorted(count_dict.items(), key=lambda x: (x[1],x[0])))
+
                 for key in sorted(sorted(count_dict.keys()), key=lambda x: count_dict[x]):
                     # print(key, count_dict[key])
                     #     heappush(q,  (value, key))
                     pq.append(key)  # 수 먼저 넣고
                     pq.append(count_dict[key])  # 횟수
-                # print("pq=",pq)
+                print("pq=",pq)
                 M = max(M, len(pq))
                 m = len(pq)
                 # print("len= {0}".format(m) )
@@ -94,7 +93,6 @@ def solve():
 
 if __name__ == '__main__':
     r, c, k = map(int, sys.stdin.readline().split())
-    #print("r={0} c={1} k={2}".format(r,c,k))
     # 3X3 배열에 입력값 넣음
     for y in range(3):
         Map[y][0], Map[y][1], Map[y][2] = list(map(int, sys.stdin.readline().split()))

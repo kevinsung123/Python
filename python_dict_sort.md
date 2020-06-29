@@ -22,6 +22,19 @@ for src,target in tickets:
 #### sorted vs sort
 - sort는 자체적으로 리스트를 정렬
 - sorted는 정렬하여 새로운 리스트 생성  
+#### dictionary 정렬
+1. key 기준 정렬
+```
+sorted(dic_list.keys())
+```
+2. key,value 알파벳순 정렬
+```
+sorted(dic_list)
+```
+3. key, value 기준으로 정렬 => value,key순서대로
+```
+sorted(dic_list.items(),key=lambda x : (x[1],x[0]))
+```
 #### 정렬  
 - [정렬문서 참고](https://docs.python.org/3/howto/sorting.html#ascending-and-descending)
 - sorted(sorted(count_dict.keys()), key=lambda x: count_dict[x])  
