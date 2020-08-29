@@ -8,7 +8,6 @@
     <orderEntry type="library" name="R Skeletons" level="application" />
     <orderEntry type="module" module-name="Python" />
     <orderEntry type="module" module-name="GCP" />
-    <orderEntry type="module" module-name="bq_job" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />
